@@ -4,10 +4,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MikeChimp HTML Email Template</title>
+<title>Vimeo Mock Email Template</title>
 
 <style type="text/css">
 	@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+	
 	body {
 		margin: 0;
         
@@ -27,7 +28,7 @@
 	.wrapper {
 		width: 100%;
 		table-layout: fixed;
-		background-color: rgb(180, 182, 182);
+		background-color: #283c49;
 		padding-bottom: 15px;
 	}
 	.main {
@@ -40,9 +41,11 @@
 	}
 	.social {
 		width: 28px;
+	
 	}
 	.social-media {
-		padding: 12px 0 12px 62px ;
+		padding: 12px 0 12px 152px ;
+		color: #ffffff;
 
 	}
 	.two-columns {
@@ -86,7 +89,7 @@
 	}
 	.last-column {
 		text-align: center;
-		padding: 10px;
+		padding: 30px 5px 10px 5px;
 	}
 	
 	.last-column .column {
@@ -97,6 +100,33 @@
 	.last-column .content {
 		font-size: 15px;
 	}
+	.two-columns .social-media-footer {
+		padding-left:4.5rem;
+	}
+
+	.footer-column {
+		text-align: center;
+		margin: auto;
+		width: 100%;
+		max-width: 300px;
+		vertical-align: auto;
+	}	
+	.footer-column .column {
+		text-align: center;
+		vertical-align: top;
+	}
+	@media only screen and (max-width: 600px) {
+ 	.social {
+		 width: 18px ;
+	 }
+	 .two-columns {
+		 padding-left: 76px;
+	 }
+	 .two-columns .logo {
+		 padding-left: 10px;
+	 }
+}
+
 
 </style>
 </head>
@@ -109,7 +139,7 @@
 
 <!-- Border -->
 	<tr>
-		<td height="8" style="background-color:#1A2E3B;"></td>
+		<td height="8" style="background-color:#00ADEF;"></td>
 	</tr>
 			
 <!-- Header -->
@@ -121,7 +151,7 @@
 								<table class="column">
 									<tr>
 										<td style="padding: 0 22px 10px;">
-										<a href=""><img src="/img/logo-vimeo.png" alt="MikeLogo" width="120"></a>
+										<a href=""><img src="/img/logo-vimeo.png" alt="MikeLogo" width="120" class="logo"></a>
 									</tr>
 									</table>
 
@@ -297,7 +327,7 @@
 						<tr>
 							<td>
 								<tr>
-									<td class="two-columns">
+									<td class="footer-column">
 										<table class="column">
 											<tr>
 												<td style="padding: 0 22px 10px;">
@@ -308,7 +338,7 @@
 		
 										<table class="column">
 											<tr>
-												<td class="social-media">
+												<td class="social-media-footer">
 														<a href=""><img src="/img/facebook.png" alt="" class="social"></a>
 														<a href=""><img src="/img/youtube.png" alt="" class="social"></a>
                                                         <a href=""><img src="/img/linkedin.png" alt="" class="social"></a>
@@ -316,6 +346,28 @@
 														
 											</td>
 											</tr>
+									
+										</table>
+
+										<table class="column">
+											<tr>
+												<td class="social-media-copyright">
+														
+														<p style="color: #ffffff; font-size: small;text-align: center;">© 2022 VimeoMockEmail.com, Inc.</p>
+											</td>
+											</tr>
+									
+										</table>
+
+										<table class="column">
+											<tr>
+												<td class="social-media-copyright2">
+														
+														<p style="color: #ffffff; font-size: small; text-align: center;">All rights reserved.</p>
+														
+											</td>
+											</tr>
+									
 										</table>
 									</td>
 								</tr>
